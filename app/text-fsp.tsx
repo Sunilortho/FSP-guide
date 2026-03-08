@@ -19,7 +19,7 @@ import {
 } from 'lucide-react-native';
 import Colors from '@/constants/colors';
 import { FSPMessage } from '@/types';
-import { generateText } from '@rork-ai/toolkit-sdk';
+import { generateText } from '@/lib/ai';
 
 const INITIAL_PATIENT_MESSAGE = "Guten Tag, Herr Doktor. Ich bin Frau Schmidt. Ich komme zu Ihnen, weil ich seit einer Woche Rückenschmerzen habe, besonders im unteren Bereich.";
 

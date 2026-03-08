@@ -37,7 +37,7 @@ import {
 } from 'lucide-react-native';
 import Colors from '@/constants/colors';
 import { FSPMessage, FSPSessionSettings } from '@/types';
-import { generateText } from '@rork-ai/toolkit-sdk';
+import { generateText } from '@/lib/ai';
 import { trpc } from '@/lib/trpc';
 import { useUser } from '@/contexts/UserContext';
 import { useRouter } from 'expo-router';

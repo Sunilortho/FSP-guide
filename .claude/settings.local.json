@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(bunx expo install --check 2>&1)"
+      "Bash(bunx expo install --check 2>&1)",
+      "Bash(eas build --profile internal --platform android 2>&1)"
     ]
   }
 }
