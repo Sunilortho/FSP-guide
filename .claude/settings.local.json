@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bunx expo install --check 2>&1)"
+    ]
+  }
+}
