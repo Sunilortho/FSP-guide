@@ -2,6 +2,9 @@
   "build": {
     "internal": {
       "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_RORK_API_BASE_URL": "https://fsp-guide-production.up.railway.app"
+      },
       "android": {
         "buildType": "apk"
       }
